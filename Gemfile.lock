@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    typhoeus (0.3.2)
+    marnen-typhoeus (0.3.6)
       mime-types
 
 GEM
@@ -31,7 +31,7 @@ PLATFORMS
 DEPENDENCIES
   diff-lcs
   json
+  marnen-typhoeus!
   rake
   rspec (~> 2.6)
   sinatra
-  typhoeus!
