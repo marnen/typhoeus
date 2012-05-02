@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors      = ["David Balatero", "Paul Dix", "Marnen Laibow-Koser"]
   s.email        = ["dbalatero@gmail.com", "marnen@marnen.org"]
   s.homepage     = "https://github.com/marnen/typhoeus"
-  s.summary      = "Parallel HTTP library on top of libcurl multi (Marnen's fork; original gem available at https://github.com/dbalatero/typhoeus)."
-  s.description  = %q{Like a modern code version of the mythical beast with 100 serpent heads, Typhoeus runs HTTP requests in parallel while cleanly encapsulating handling logic.}
+  s.summary      = "Parallel HTTP library on top of libcurl multi."
+  s.description  = %q{Like a modern code version of the mythical beast with 100 serpent heads, Typhoeus runs HTTP requests in parallel while cleanly encapsulating handling logic. (This is Marnen Laibow-Koser's fork of the original Typhoeus gem, available at https://github.com/dbalatero/typhoeus.)}
   s.extensions   = ["ext/typhoeus/extconf.rb"]
   s.files        = (`git ls-files ext lib spec`.split("\n")) + [
                      'CHANGELOG.markdown',
