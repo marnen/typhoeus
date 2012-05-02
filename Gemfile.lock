@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    marnen-typhoeus (0.3.6)
+    marnen-typhoeus (0.3.7)
       mime-types
 
 GEM
