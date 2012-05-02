@@ -4,12 +4,12 @@ $:.unshift File.expand_path('../lib', __FILE__)
 require 'typhoeus/version'
 
 Gem::Specification.new do |s|
-  s.name         = "typhoeus"
+  s.name         = "marnen-typhoeus"
   s.version      = Typhoeus::VERSION
-  s.authors      = ["David Balatero", "Paul Dix"]
-  s.email        = "dbalatero@gmail.com"
-  s.homepage     = "https://github.com/dbalatero/typhoeus"
-  s.summary      = "Parallel HTTP library on top of libcurl multi."
+  s.authors      = ["David Balatero", "Paul Dix", "Marnen Laibow-Koser"]
+  s.email        = ["dbalatero@gmail.com", "marnen@marnen.org"]
+  s.homepage     = "https://github.com/marnen/typhoeus"
+  s.summary      = "Parallel HTTP library on top of libcurl multi (Marnen's fork; original gem available at https://github.com/dbalatero/typhoeus)."
   s.description  = %q{Like a modern code version of the mythical beast with 100 serpent heads, Typhoeus runs HTTP requests in parallel while cleanly encapsulating handling logic.}
   s.extensions   = ["ext/typhoeus/extconf.rb"]
   s.files        = (`git ls-files ext lib spec`.split("\n")) + [
